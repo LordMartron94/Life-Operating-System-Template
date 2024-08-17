@@ -1,4 +1,6 @@
 # [[Welcome]]
+![[Current System Version#Current System Version]]
+
 > [!quote] Systems
 > "You don't rise to the levels of your goals, but you fall to the levels of your systems." -- [[James Clear]], [[Atomic Habits]]
 > 

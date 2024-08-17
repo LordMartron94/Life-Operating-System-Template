@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3de509555247efd8",
+        "id": "fa00f13bb9ad9473",
         "type": "split",
         "children": [
           {
-            "id": "cde43e381511e490",
+            "id": "812f0911bc1b4fc6",
             "type": "tabs",
-            "dimension": 64.23666138404649,
+            "dimension": 67.00105596620908,
             "children": [
               {
-                "id": "4dd66aa68c39438c",
+                "id": "72c5a30a835fecf8",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -27,13 +27,14 @@
             ]
           },
           {
-            "id": "d03de76ccdcc51c9",
+            "id": "a6e8387a0fc13426",
             "type": "split",
-            "dimension": 35.76333861595351,
+            "dimension": 32.99894403379092,
             "children": [
               {
                 "id": "c6c3238c3dfb5c72",
                 "type": "tabs",
+                "dimension": 60.788381742738586,
                 "children": [
                   {
                     "id": "27304ba098bc8fe2",
@@ -46,8 +47,9 @@
                 ]
               },
               {
-                "id": "b3b6fe5dde24f791",
+                "id": "e0a93ff231799c5b",
                 "type": "tabs",
+                "dimension": 39.211618257261414,
                 "children": [
                   {
                     "id": "4956a26079559038",
@@ -228,10 +230,11 @@
       "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "4dd66aa68c39438c",
+  "active": "72c5a30a835fecf8",
   "lastOpenFiles": [
-    "Whiteboard.md",
     "Welcome.md",
+    "0000 Meta/Current System Version.md",
+    "Whiteboard.md",
     "0000 Meta/Bibliography for the System.md",
     "4000 Supplementary Pipelines/Habit Management/Habit Command.md",
     "4000 Supplementary Pipelines/Habit Management/Logs/Test Log 2.md",
@@ -271,7 +274,6 @@
     "DataviewLibrary/stats/WeeklyNotesReport.js",
     "2000 Core Alignment/Schwerpunkt.md",
     "0000 Meta/Templates/Meta/System Usage Log Template.md",
-    "2000 Core Alignment/Identity Design.md",
     "0000 Meta/Attachments/Pasted image 20240706115159.png",
     "0000 Meta/Attachments/Pasted image 20240706114507.png",
     "0000 Meta/Attachments/Pasted image 20240705121812.png",
