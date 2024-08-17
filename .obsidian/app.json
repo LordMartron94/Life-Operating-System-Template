@@ -1,0 +1,15 @@
+{
+  "attachmentFolderPath": "0000 Meta/Attachments",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "0000 Meta/Inbox",
+  "spellcheck": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "promptDelete": false
+}

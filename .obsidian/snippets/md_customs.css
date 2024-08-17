@@ -1,0 +1,182 @@
+/* CSS Snippet for Obsidian */
+.md-bigview .markdown-preview-section {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.md-bigview {
+    --file-line-width: 100%;
+}
+
+.md-dashboard-toggle {
+    color: #e29e00;
+    background-color: #0059e2;
+    width: 100%;
+    display: block; /* Ensure it's a block-level element */
+    margin-top: -22px;
+    margin-bottom: -22px;
+    /*margin-left: -16px; !* Remove any potential left margin/padding from parent elements *!*/
+    /*margin-right: -16px; !* Remove any potential right margin/padding from parent elements *!*/
+}
+
+/* Root variables */
+:root {
+    --ratio-increase: 2;
+    --toggle-icon-size: calc(4px * var(--ratio-increase));
+    --triangle-border-width: calc(4px * var(--ratio-increase));
+    --triangle-margin-top: 4px;
+    --triangle-margin-left: 4px;
+    --triangle-margin-right: 8px;
+    --base-indent-callout: 45px;
+}
+
+/* Define your CSS styles for the callout here */
+.md-callout {
+    /* Styles for the callout container */
+    background-color: #464646;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    position: relative; /* Add this line to create a positioning context */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: flex-start; /* Align items at the top */
+}
+
+.md-callout-title {
+    /* Styles for the title within the callout */
+    font-size: 16px !important;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+    margin-left: 45px !important;
+    display: flex; /* Allow title and icon to be side by side */
+    align-items: center; /* Vertically center title and icon */
+}
+
+.md-callout-content {
+    /* Styles for the content within the callout */
+    font-size: 14px;
+    margin-left: var(--base-indent-callout); /* Adjust the left margin to accommodate the icon */
+}
+
+.md-callout-paragraph {
+    font-weight: normal;
+}
+
+/* Add a class to style the SVG icon */
+.md-callout-icon {
+    /* Styles for the SVG icon */
+    width: 40px; /* Adjust the width as needed */
+    height: 40px; /* Adjust the height as needed */
+    background-repeat: no-repeat;
+    position: absolute; /* Position the icon absolutely within the title */
+    top: 10px; /* Position it at the top */
+    left: 10px; /* Position it at the left */
+}
+
+/* Styles for individual toggle items */
+.md-callout-toggle {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color 0.2s, color 0.2s;
+    position: relative;
+}
+
+.md-callout-toggle .md-callout-label-wrapper {
+    /* Add styling to the label wrapper (for clickable area) */
+    cursor: pointer;
+    display: inline-block;
+}
+
+.md-callout-toggle span {
+    align-self: start;
+}
+
+/* Hover effect for toggle items */
+.md-callout-toggle span:hover {
+    color: #333 !important;
+}
+
+/* Triangle icon when inactive */
+.md-callout-toggle::before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: var(--triangle-border-width) 0 var(--triangle-border-width) calc(var(--toggle-icon-size) + var(--triangle-border-width));
+    border-color: transparent transparent transparent #000;
+    margin-right: var(--triangle-margin-right);
+    margin-top: var(--triangle-margin-top);
+    margin-left: var(--triangle-margin-left);
+    transform: rotate(0deg);
+    transition: transform 0.2s;
+}
+
+/* Active (clicked) state for toggle items */
+.md-callout-toggle-active::before {
+    transform: rotate(90deg);
+}
+
+.md-callout-toggle-content-hidden {
+    display: none !important;
+}
+
+.md-callout-divider {
+    /*border-top: 1px solid #ccc; !* Example border style *!*/
+    /*margin-top: 20px; !* Adjust margin as needed *!*/
+    /*margin-bottom: 20px; !* Adjust margin as needed *!*/
+    /*padding-top: 10px; !* Adjust padding as needed *!*/
+    /*padding-bottom: 10px; !* Adjust padding as needed *!*/
+    color: white;
+    background-color: white;
+    height: 1px;
+    width: 100%;
+    /* Add any other styles you want for your divider */
+}
+
+/* Styles for the image */
+.md-callout-image {
+    width: 500px;
+    height: 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* Styles for the container */
+.md-list-element {
+    /* Add your styles for the container here */
+    /* Example styles: */
+    font-weight: normal;
+}
+
+/* Styles for list items */
+.md-list-item {
+    /* Add your styles for list items here */
+    /* Example styles: */
+    list-style-type: disc; /* Use bullets for list items */
+    /*margin-left: 45px; !* Adjust the left margin for indentation *!*/
+}
+
+.md-list-item .md-callout-paragraph {
+    margin-left: 0;
+}
+
+.md-list-item .md-callout-label-wrapper {
+    /* Add styling to the label wrapper (for clickable area) */
+    cursor: text;
+}
+
+.theme-dark.pt-color-scheme-raven-dt,
+.md-list-item .md-callout-label-wrapper span:hover{
+    /* Add styling to the label wrapper (for clickable area) */
+    color: hsl(0, 0%, 91%) !important;
+    /*background-color: black;*/
+}
+

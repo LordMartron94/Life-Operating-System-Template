@@ -1,0 +1,87 @@
+/*
+This theme is called Hoorn because I, Mr. Hoorn, have made it.
+Possibly the theme will be renamed in the future.
+
+Intended to use only in Dark mode.
+ */
+
+:root {
+    /* Background color */
+    --bg-color: #1a1a1a;
+
+    /* Text colors */
+    --text-color: #ffffff; /* Regular text */
+    --text-bold-color: #ffd700; /* Bold text */
+    --text-italic-color: #00ff00; /* Italics text */
+    --text-bold-italic-color: #ff4500; /* Bold + Italics text */
+
+    /* Heading colors */
+    --heading-1-color: #ff6347;
+    --heading-2-color: #6495ed;
+    --heading-3-color: #32cd32;
+    --heading-4-color: #ff69b4;
+    --heading-5-color: #ffc0cb;
+    --heading-6-color: #00ced1;
+
+    /* Link color */
+    --c-link-color: #00bfff;
+}
+
+
+.theme-dark {
+    /* Background */
+    --background-primary: var(--bg-color);
+    --background-primary-alt: var(--bg-color);
+    --background-secondary:       #191919;
+    --background-secondary-alt:   #3D3D3D;
+
+
+    /* Text */
+    --text-normal: var(--text-color);
+
+    /* Bold */
+    --bold-weight: 700;
+    --bold-color: var(--text-bold-color);
+
+    /* Italic */
+    --italic-color: var(--text-italic-color);
+
+    /* Bold & Italic */
+    .cm-strong.cm-em,
+    .markdown-preview-view strong em,
+    .callout strong em {
+        color: var(--text-bold-italic-color);
+    }
+
+    /* Inline Code */
+    .markdown-preview-view code,
+    .cm-s-obsidian span.cm-inline-code {
+        background-color: #3d3d3d;
+        color: #e71a32;
+    }
+
+
+    /* Headings */
+    --h1-color: var(--heading-1-color);
+    --h2-color: var(--heading-2-color);
+    --h3-color: var(--heading-3-color);
+    --h4-color: var(--heading-4-color);
+    --h5-color: var(--heading-5-color);
+    --h6-color: var(--heading-6-color);
+
+
+    /* Links */
+    --link-color: var(--c-link-color);
+    --link-color-hover: var(--c-link-color);
+    --link-decoration: none;
+    --link-decoration-hover: none;
+    --link-external-color: var(--c-link-color);
+    --link-external-color-hover: var(--c-link-color);
+    --link-external-decoration: none;
+    --link-external-decoration-hover: none;
+    --link-external-filter: none;
+    --link-unresolved-color: var(--c-link-color);
+    --link-unresolved-opacity: 0.65;
+    --link-unresolved-filter: none;
+    --link-unresolved-decoration-style: solid;
+}

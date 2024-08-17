@@ -1,0 +1,9 @@
+{
+  "accentColor": "",
+  "cssTheme": "LYT Mode",
+  "enabledCssSnippets": [
+    "md_customs",
+    "dashboard"
+  ],
+  "theme": "obsidian"
+}

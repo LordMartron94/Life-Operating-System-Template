@@ -1,0 +1,280 @@
+{
+  "main": {
+    "id": "9cd538d6edb5c8bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "3de509555247efd8",
+        "type": "split",
+        "children": [
+          {
+            "id": "cde43e381511e490",
+            "type": "tabs",
+            "dimension": 64.23666138404649,
+            "children": [
+              {
+                "id": "4dd66aa68c39438c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Welcome.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "d03de76ccdcc51c9",
+            "type": "split",
+            "dimension": 35.76333861595351,
+            "children": [
+              {
+                "id": "c6c3238c3dfb5c72",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "27304ba098bc8fe2",
+                    "type": "leaf",
+                    "state": {
+                      "type": "graph",
+                      "state": {}
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "b3b6fe5dde24f791",
+                "type": "tabs",
+                "children": [
+                  {
+                    "id": "4956a26079559038",
+                    "type": "leaf",
+                    "state": {
+                      "type": "localgraph",
+                      "state": {
+                        "file": "Welcome.md",
+                        "options": {
+                          "collapse-filter": false,
+                          "search": "",
+                          "localJumps": 1,
+                          "localBacklinks": true,
+                          "localForelinks": true,
+                          "localInterlinks": false,
+                          "showTags": false,
+                          "showAttachments": false,
+                          "hideUnresolved": false,
+                          "collapse-color-groups": true,
+                          "colorGroups": [],
+                          "collapse-display": true,
+                          "showArrow": true,
+                          "textFadeMultiplier": -3,
+                          "nodeSizeMultiplier": 1,
+                          "lineSizeMultiplier": 1,
+                          "collapse-forces": true,
+                          "centerStrength": 0.518713248970312,
+                          "repelStrength": 10,
+                          "linkStrength": 1,
+                          "linkDistance": 217,
+                          "scale": 0.2588386562181631,
+                          "close": true
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "64f5cf331460d072",
+    "type": "split",
+    "children": [
+      {
+        "id": "ad476d456b5c014c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3db69ea7e50d61a2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "6c87d6bc985aa4ee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:\"9999 Extras/Templates/\" ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ec405e33bdd24d8a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "407ade463734bb5e",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 394.5
+  },
+  "right": {
+    "id": "81dd0bf9d9ae3346",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee67fdd35b577a9e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4d3d66e2f5140f43",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f32b056244c6e2f8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f64197e5b06ec305",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3afe27db16b4be22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 228.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "wikipedia-search:Open Article": false,
+      "obsidian-full-calendar:Open Full Calendar": false
+    }
+  },
+  "active": "4dd66aa68c39438c",
+  "lastOpenFiles": [
+    "0000 Meta/Bibliography for the System.md",
+    "4000 Supplementary Pipelines/Habit Management/Habit Command.md",
+    "4000 Supplementary Pipelines/Habit Management/Logs/Test Log 2.md",
+    "0000 Meta/Templates/Habits/New Habit.md",
+    "5000 Main Dashboards/Sleep Overview.md",
+    "0000 Meta/Templates/Habits/New Habit Log.md",
+    "4000 Supplementary Pipelines/Habit Management/Logs/Test Habit Log.md",
+    "4000 Supplementary Pipelines/Habit Management/Logs/Test Log 3.md",
+    "5000 Main Dashboards/Alignment Zone.md",
+    "4000 Supplementary Pipelines/Habit Management/Habits/Test Habit.md",
+    "4000 Supplementary Pipelines/Habit Management/Logs",
+    "0000 Meta/Options in Metadata.md",
+    "0000 Meta/Templates/New Sleep Log.md",
+    "2000 Core Alignment/Value Goals/Support/Value Goals.md",
+    "4000 Supplementary Pipelines/Habit Management/Habits",
+    "0000 Meta/Templates/Habits",
+    "4000 Supplementary Pipelines/Habit Management",
+    "5000 Main Dashboards/Focus Zone.md",
+    "0000 Meta/Templates/Knowledge/New Source.md",
+    "Home.md",
+    "0000 Meta/Background Concepts/Rating a Book Fairly.md",
+    "0000 Meta/Attachments/Pasted image 20240715184522.png",
+    "0000 Meta/Attachments/Pasted image 20240715184511.png",
+    "0000 Meta/Attachments/Pasted image 20240715184500.png",
+    "0000 Meta/Attachments/Pasted image 20240715184400.png",
+    "0000 Meta/Attachments/Pasted image 20240715184240.png",
+    "0000 Meta/Attachments/Pasted image 20240715184121.png",
+    "0000 Meta/What is Contained In this Vault.md",
+    "0000 Meta/Templates/Knowledge",
+    "6000 Knowledge/Bibliography Ledger",
+    "6000 Knowledge",
+    "0000 Meta/Templates/Reflection/New Weekly Review.md",
+    "0000 Meta/Templates/Reflection/New Daily Log.md",
+    "0000 Meta/Meaning of Statistical Data.md",
+    "DataviewLibrary/styles/dark.css",
+    "DataviewLibrary/styles",
+    "DataviewLibrary/stats/WeeklyNotesReport.js",
+    "2000 Core Alignment/Schwerpunkt.md",
+    "0000 Meta/Templates/Meta/System Usage Log Template.md",
+    "2000 Core Alignment/Identity Design.md",
+    "Welcome.md",
+    "0000 Meta/Taxonomy.md",
+    "0000 Meta/Attachments/Pasted image 20240706115159.png",
+    "0000 Meta/Attachments/Pasted image 20240706114507.png",
+    "0000 Meta/Attachments/Pasted image 20240705121812.png",
+    "0000 Meta/Attachments/Pasted image 20240705121431.png"
+  ]
+}

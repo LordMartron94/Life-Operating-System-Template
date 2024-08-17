@@ -1,0 +1,24 @@
+{
+  "Filters": [
+    {
+      "ScriptKey": "StageFilter",
+      "AssociatedNoteMetadataKey": "Stage",
+      "PossibleValues": [
+        "Not Started",
+        "In Progress"
+      ]
+    },
+    {
+      "ScriptKey": "DailyTypeFilter",
+      "AssociatedNoteMetadataKey": "Daily Type",
+      "PossibleValues": [
+        "0 Immediate\uD83D\uDD25",
+        "02 Scheduled\uD83D\uDCC5",
+        "1st Priority",
+        "2nd Priority",
+        "3rd Priority",
+        "6 Remember\uD83D\uDCAD"
+      ]
+    }
+  ]
+}

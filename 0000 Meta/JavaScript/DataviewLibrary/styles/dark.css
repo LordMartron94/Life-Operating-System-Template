@@ -1,0 +1,251 @@
+/* Existing styles for context menu */
+.context-menu {
+    position: absolute;
+    background-color: #313131;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    z-index: 1000;
+    display: block; /* Ensure it's initially visible */
+}
+
+.context-menu-button {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.context-menu-button:hover {
+    background-color: #0f47da;
+}
+
+.context-menu-divider {
+    height: 1px; /* Adjust the height of the divider as needed */
+    background-color: #ccc; /* Divider color */
+    margin: 5px 0; /* Adjust the margin to control the spacing around the divider */
+}
+
+/* New styles for the color modal */
+.color-modal {
+    position: fixed;
+    background-color: #3b3b3b;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+.color-modal-title {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px; /* Add space below the title */
+    color: #8e00e2;
+}
+
+.color-value-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px; /* Add space below the input */
+}
+
+/* Styles for the hover popup */
+.hover-popup {
+    position: absolute;
+    background-color: #3b3b3b;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 10px;
+    width: auto;
+    min-width: 200px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* Hide any overflowing content */
+}
+
+.metadata-container {
+    width: auto;
+    /*background-color: white;*/
+    padding: 10px;
+    flex: 1;
+    overflow: visible; /* Enable scrolling if content exceeds the container */
+}
+
+.popup-title {
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #8e00e2;
+    text-align: center;
+}
+
+.popup-divider {
+    height: 4px;
+    background-color: #ffffff;
+    color: #ffffff;
+    margin: 5px 0;
+}
+
+/* Styles for metadata key */
+.popup-key {
+    font-weight: bold;
+    color: #1f8822;
+}
+
+/* Styles for metadata value */
+.popup-value {
+    color: #000000;
+}
+
+.color-container {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+}
+
+.popup-color-block {
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+/* Style for the edit event popup */
+.edit-event-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #3b3b3b;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+/* Style for input labels */
+.edit-event-popup label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for input fields */
+.edit-event-popup input[type="datetime-local"],
+.edit-event-popup input[type="color"] {
+    width: 100%;
+    padding: 8px 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Style for the input container */
+.input-container {
+    width: auto; /* Allow the width to scale with content */
+    max-width: 100%; /* Limit the width to not exceed the boundary */
+    height: auto; /* Allow the height to scale with content */
+    color: white;
+    overflow-y: auto; /* Add vertical scrollbar when content exceeds the container height */
+    display: flex; /* Use flex layout for alignment */
+    flex-direction: column; /* Stack label and input vertically */
+}
+
+/* Style for the input label */
+.input-container .input-label {
+    margin-bottom: 5px;
+}
+
+/* Style for the input wrapper */
+.input-container .input-wrapper {
+    position: relative; /* Relative positioning for children */
+    width: 100%; /* Input wrapper takes the full width of the container */
+    overflow-y: auto; /* Add vertical scrollbar when content exceeds the container height */
+    display: flex; /* Use flex layout for alignment */
+    flex-direction: column; /* Stack label and input vertically */
+    align-content: flex-start;
+}
+
+/* Style for the input field */
+.input-container .text-input-value {
+    width: 100%; /* Input field takes the full width of the input wrapper */
+    box-sizing: border-box; /* Include padding and border within the width */
+    min-height: 4em; /* Minimum height for 4 rows */
+    max-height: 10em; /* Maximum height for 6 rows */
+    height: auto; /* Allow the input field to have its own height based on content */
+    text-align: left; /* Align the text to the left */
+    border: 1px solid #ccc; /* Restore border */
+    resize: vertical; /* Allow vertical resizing of the textarea */
+}
+
+/* Style for the edit Buttons */
+.edit-event-popup button  {
+    display: flex; /* Use flexbox to center text */
+    justify-content: center; /* Center text horizontally */
+    align-items: center; /* Center text vertically */
+    width: 100%;
+    padding: 10px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Style for the edit Buttons container */
+.edit-button-container {
+    display: flex; /* Use flexbox to display items next to each other */
+    flex-direction: row; /* Stack items horizontally */
+    gap: 10px; /* Add spacing (10px) between items */
+}
+
+/* Style for the Save button */
+.edit-event-popup .edit-button-container button[type="submit"] {
+    background-color: #5a1293;
+}
+
+/* Style for the Delete button */
+.edit-event-popup .edit-button-container button[type="delete"] {
+    background-color: #ff0000;
+}
+
+
+/* Hover effect for the Edit buttons */
+.edit-event-popup .edit-button-container button:hover {
+    background-color: #0056b3;
+}
+
+/* Add this CSS to your stylesheet */
+.color-input-container {
+    display: flex; /* Make the container a flex container */
+    align-items: center; /* Vertically center items within the container */
+    gap: 10px; /* Add spacing between color picker and text input */
+}
+
+.edit-event-popup .edit-menu-inspection-container {
+    display: flex; /* Use flexbox to display items next to each other */
+    flex-direction: column; /* Stack items vertically */
+    background-color: #707070;
+    padding: 5px;
+}
+
+.edit-event-popup .edit-menu-inspection-container .metadata-container {
+    display: flex; /* Use flexbox to display items next to each other */
+    flex-direction: row; /* Stack items horizontally */
+    gap: 5px;
+    padding: 0;
+}
+
+/* Styles for metadata key */
+.edit-event-popup .edit-menu-inspection-container .metadata-container .popup-key {
+    font-weight: bold;
+    color: #0f19dc;
+}
+
+/*!* Styles for metadata key *!*/
+/*.edit-event-popup .edit-menu-inspection-container .metadata-container .popup-value {*/
+/*    background-color: #949494;*/
+/*}*/

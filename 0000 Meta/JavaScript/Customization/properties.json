@@ -1,0 +1,97 @@
+{
+  "Properties": [
+    {
+      "Label": "10k Priority",
+      "NoteMetadataKey": "10k Priority",
+      "ScriptKey":  "10kPriority",
+      "ValueMappings": [
+        {
+          "Value": "\uD83D\uDCB0\uD83D\uDCB0\uD83D\uDCB0\uD83D\uDCB0 $10k",
+          "Label": "💰💰💰💰 $10k"
+        },
+        {
+          "Value": "\uD83D\uDCB0\uD83D\uDCB0\uD83D\uDCB0 $1k",
+          "Label": "💰💰💰 $1k"
+        },
+        {
+          "Value": "\uD83D\uDCB0\uD83D\uDCB0 $100",
+          "Label": "💰💰 $100"
+        },
+        {
+          "Value": "\uD83D\uDCB0 $10",
+          "Label": "💰 $10"
+        }
+      ]
+    },
+    {
+      "Label": "Daily Type",
+      "NoteMetadataKey": "Daily Type",
+      "ScriptKey":  "dailyType",
+      "ValueMappings": [
+        {
+          "Value": "Immediate\uD83D\uDD25",
+          "Label": "Immediate\uD83D\uDD25"
+        },
+        {
+          "Value": "Quick⚡",
+          "Label": "Quick⚡"
+        },
+        {
+          "Value": "Scheduled\uD83D\uDCC5",
+          "Label": "Scheduled\uD83D\uDCC5"
+        },
+        {
+          "Value": "1st Priority",
+          "Label": "1st Priority"
+        },
+        {
+          "Value": "2nd Priority",
+          "Label": "2nd Priority"
+        },
+        {
+          "Value": "3rd Priority",
+          "Label": "3rd Priority"
+        },
+        {
+          "Value": "4th Priority",
+          "Label": "4th Priority"
+        },
+        {
+          "Value": "5th Priority",
+          "Label": "5th Priority"
+        },
+        {
+          "Value": "Remember\uD83D\uDCAD",
+          "Label": "Remember\uD83D\uDCAD"
+        }
+      ]
+    },
+    {
+      "Label": "Projected Time",
+      "NoteMetadataKey": "Projected Time",
+      "ScriptKey":  "projectedTime",
+      "ValueMappings": [
+        {
+          "Value": "\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45 2h+",
+          "Label": "\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45 2h+"
+        },
+        {
+          "Value": "\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45 90-120m",
+          "Label": "\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45 90-120m"
+        },
+        {
+          "Value": "\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45 60-90m",
+          "Label": "\uD83C\uDF45\uD83C\uDF45\uD83C\uDF45 60-90m"
+        },
+        {
+          "Value": "\uD83C\uDF45\uD83C\uDF45 30-60m",
+          "Label": "\uD83C\uDF45\uD83C\uDF45 30-60m"
+        },
+        {
+          "Value": "\uD83C\uDF45 0-30m",
+          "Label": "\uD83C\uDF45 0-30m"
+        }
+      ]
+    }
+  ]
+}
